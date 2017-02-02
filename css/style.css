@@ -1,0 +1,44 @@
+.main_section{
+	display: flex;
+	justify-content: center;
+		/* This is the div controlling all the pictures
+	in the first section */
+}
+
+.section_1{
+flex: 1;
+order: 1;
+padding-left: 15px;
+}
+
+.text_1{
+background-color: grey;
+max-width: 20%;
+height: 750px;
+flex: 1;
+/* This is the div controlling the text in the first text box*/
+}
+nav ul{
+	display:flex;
+	justify-content: center;
+	justify-content: space-around;
+border-style: solid;
+	border-radius: 20px;
+	border-width: 5px;
+}
+
+
+.Second_section {
+	display: flex;
+	justify-content: center;
+	order: 1;
+}
+.text_2{
+background-color: #FF421D
+}
+.text_3{
+order: 2;
+background-color: #FF761D
+}
+
+
